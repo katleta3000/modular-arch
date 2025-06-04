@@ -1,0 +1,33 @@
+//
+//  Created by Evgenii Rtischev on 01/05/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CURRENT_PROJECT_VERSION = 1
+MARKETING_VERSION = 0.1.0
+
+// Packaging
+INFOPLIST_FILE = AppA/Resources/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = com.ertishchev.AppA
+PRODUCT_MODULE_NAME = AppA // Name of the target (module)
+PRODUCT_NAME = AppA // Name of the application shipped to the App Store via Organizer
+INFOPLIST_KEY_CFBundleDisplayName = AppA // Name of the icon in the dock and the spotlight search
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+// Signing
+CODE_SIGN_STYLE = Automatic
+//DEVELOPMENT_TEAM =
+//CODE_SIGN_ENTITLEMENTS = AppA.entitlements
+
+// Info.plist Values
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen
+INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES
+INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO
+INFOPLIST_KEY_UIRequiresFullScreen = YES
+INFOPLIST_KEY_UIUserInterfaceStyle = Light
+INFOPLIST_KEY_UIStatusBarHidden = NO
+INFOPLIST_KEY_NSUserTrackingUsageDescription = The reason for tracking

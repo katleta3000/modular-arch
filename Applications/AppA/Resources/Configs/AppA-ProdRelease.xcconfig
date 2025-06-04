@@ -1,0 +1,13 @@
+//
+//  Created by Evgenii Rtischev on 01/05/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "AppA.xcconfig"
+#include "../../../../Configs/Debug.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.ertishchev.AppA.Prod
+PRODUCT_NAME = AppA-Prod
+INFOPLIST_KEY_CFBundleDisplayName = AppA-Prod

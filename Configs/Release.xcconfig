@@ -1,0 +1,24 @@
+//
+//  Release.xcconfig
+//
+//  Created by Evgenii Rtischev on 01/05/2023.
+//
+
+#include "Common.xcconfig"
+
+// Build Options
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+VALIDATE_PRODUCT = YES
+
+// Swift Compiler
+SWIFT_COMPILATION_MODE = wholemodule
+SWIFT_OPTIMIZATION_LEVEL = -O
+
+// Deployment
+COPY_PHASE_STRIP = YES
+
+// Clang Compiler
+ENABLE_NS_ASSERTIONS = NO
+
+// User-Defined
+MTL_ENABLE_DEBUG_INFO = NO

@@ -1,0 +1,10 @@
+//
+//  Created by Evgenii Rtischev on 01/05/2023.
+//
+
+#include "AppB.xcconfig"
+#include "../../../../Configs/Debug.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.ertishchev.AppB.Dev
+PRODUCT_NAME = AppB-Dev
+INFOPLIST_KEY_CFBundleDisplayName = AppB-Dev

@@ -1,0 +1,72 @@
+# Created by https://www.gitignore.io
+
+*.DS_Store
+
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Gitlab CI
+builds/
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+### Swift ###
+# Xcode
+#
+
+/.idea/
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+.build/
+Package.pins
+Package.resolved
+
+## Generamba
+Rambafile
+
+## Fastlane
+.fastlane/report.xml
+.fastlane/screenshots
+.fastlane/test_output
+.fastlane/Preview.html
+.fastlane/screenshots/**/*.png
+.fastlane/api_key.p8
+api_key.p8
+.env.*
+periphery.log
+lintreport.log
+
+### Objective-C Patch ###
+*.xcscmblueprint

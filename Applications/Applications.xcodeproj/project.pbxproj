@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		7CCC9B862DF04680007D2345 /* AppA-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppA-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC9BA22DF04715007D2345 /* AppB-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppB-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7CCC9B982DF04682007D2345 /* Exceptions for "AppA" folder in "AppA" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 7CCC9B852DF04680007D2345 /* AppA */;
+		};
+		7CCC9BB32DF04717007D2345 /* Exceptions for "AppB" folder in "AppB" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 7CCC9BA12DF04715007D2345 /* AppB */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7CCC9B882DF04680007D2345 /* AppA */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CCC9B982DF04682007D2345 /* Exceptions for "AppA" folder in "AppA" target */,
+			);
+			path = AppA;
+			sourceTree = "<group>";
+		};
+		7CCC9BA32DF04715007D2345 /* AppB */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CCC9BB32DF04717007D2345 /* Exceptions for "AppB" folder in "AppB" target */,
+			);
+			path = AppB;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCC9B832DF04680007D2345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCC9B9F2DF04715007D2345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCC9B7D2DF04680007D2345 = {
+			isa = PBXGroup;
+			children = (
+				7CCC9B882DF04680007D2345 /* AppA */,
+				7CCC9BA32DF04715007D2345 /* AppB */,
+				7CCC9B872DF04680007D2345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCC9B872DF04680007D2345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC9B862DF04680007D2345 /* AppA-Dev.app */,
+				7CCC9BA22DF04715007D2345 /* AppB-Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCC9B852DF04680007D2345 /* AppA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCC9B992DF04682007D2345 /* Build configuration list for PBXNativeTarget "AppA" */;
+			buildPhases = (
+				7CCC9B822DF04680007D2345 /* Sources */,
+				7CCC9B832DF04680007D2345 /* Frameworks */,
+				7CCC9B842DF04680007D2345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7CCC9B882DF04680007D2345 /* AppA */,
+			);
+			name = AppA;
+			packageProductDependencies = (
+			);
+			productName = AppA;
+			productReference = 7CCC9B862DF04680007D2345 /* AppA-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCC9BA12DF04715007D2345 /* AppB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCC9BB42DF04717007D2345 /* Build configuration list for PBXNativeTarget "AppB" */;
+			buildPhases = (
+				7CCC9B9E2DF04715007D2345 /* Sources */,
+				7CCC9B9F2DF04715007D2345 /* Frameworks */,
+				7CCC9BA02DF04715007D2345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7CCC9BA32DF04715007D2345 /* AppB */,
+			);
+			name = AppB;
+			packageProductDependencies = (
+			);
+			productName = AppB;
+			productReference = 7CCC9BA22DF04715007D2345 /* AppB-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCC9B7E2DF04680007D2345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					7CCC9B852DF04680007D2345 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					7CCC9BA12DF04715007D2345 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 7CCC9B812DF04680007D2345 /* Build configuration list for PBXProject "Applications" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCC9B7D2DF04680007D2345;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7CCC9B872DF04680007D2345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCC9B852DF04680007D2345 /* AppA */,
+				7CCC9BA12DF04715007D2345 /* AppB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCC9B842DF04680007D2345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCC9BA02DF04715007D2345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCC9B822DF04680007D2345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCC9B9E2DF04715007D2345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CCC9B9A2DF04682007D2345 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9B882DF04680007D2345 /* AppA */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppA-DevDebug.xcconfig";
+			buildSettings = {
+			};
+			name = DevDebug;
+		};
+		7CCC9B9B2DF04682007D2345 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9B882DF04680007D2345 /* AppA */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppA-DevRelease.xcconfig";
+			buildSettings = {
+			};
+			name = DevRelease;
+		};
+		7CCC9B9C2DF04682007D2345 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = DevDebug;
+		};
+		7CCC9B9D2DF04682007D2345 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = DevRelease;
+		};
+		7CCC9BB52DF04717007D2345 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9BA32DF04715007D2345 /* AppB */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppB-DevDebug.xcconfig";
+			buildSettings = {
+			};
+			name = DevDebug;
+		};
+		7CCC9BB62DF04717007D2345 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9BA32DF04715007D2345 /* AppB */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppB-DevRelease.xcconfig";
+			buildSettings = {
+			};
+			name = DevRelease;
+		};
+		7CCC9BE22DF056FB007D2345 /* ProdDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = ProdDebug;
+		};
+		7CCC9BE32DF056FB007D2345 /* ProdDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9B882DF04680007D2345 /* AppA */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppA-ProdDebug.xcconfig";
+			buildSettings = {
+			};
+			name = ProdDebug;
+		};
+		7CCC9BE42DF056FB007D2345 /* ProdDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9BA32DF04715007D2345 /* AppB */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppB-ProdDebug.xcconfig";
+			buildSettings = {
+			};
+			name = ProdDebug;
+		};
+		7CCC9BE52DF05725007D2345 /* ProdRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = ProdRelease;
+		};
+		7CCC9BE62DF05725007D2345 /* ProdRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9B882DF04680007D2345 /* AppA */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppA-ProdRelease.xcconfig";
+			buildSettings = {
+			};
+			name = ProdRelease;
+		};
+		7CCC9BE72DF05725007D2345 /* ProdRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCC9BA32DF04715007D2345 /* AppB */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/AppB-ProdRelease.xcconfig";
+			buildSettings = {
+			};
+			name = ProdRelease;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCC9B812DF04680007D2345 /* Build configuration list for PBXProject "Applications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC9B9C2DF04682007D2345 /* DevDebug */,
+				7CCC9BE22DF056FB007D2345 /* ProdDebug */,
+				7CCC9B9D2DF04682007D2345 /* DevRelease */,
+				7CCC9BE52DF05725007D2345 /* ProdRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevRelease;
+		};
+		7CCC9B992DF04682007D2345 /* Build configuration list for PBXNativeTarget "AppA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC9B9A2DF04682007D2345 /* DevDebug */,
+				7CCC9BE32DF056FB007D2345 /* ProdDebug */,
+				7CCC9B9B2DF04682007D2345 /* DevRelease */,
+				7CCC9BE62DF05725007D2345 /* ProdRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevRelease;
+		};
+		7CCC9BB42DF04717007D2345 /* Build configuration list for PBXNativeTarget "AppB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC9BB52DF04717007D2345 /* DevDebug */,
+				7CCC9BE42DF056FB007D2345 /* ProdDebug */,
+				7CCC9BB62DF04717007D2345 /* DevRelease */,
+				7CCC9BE72DF05725007D2345 /* ProdRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevRelease;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCC9B7E2DF04680007D2345 /* Project object */;
+}
