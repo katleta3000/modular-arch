@@ -6,15 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7CCC9CBB2DF08DEA007D2345 /* LoggerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */; };
+		7CCC9CBC2DF08DEA007D2345 /* LoggerCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CCC9CB52DF08C0F007D2345 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7CCC9CBC2DF08DEA007D2345 /* LoggerCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7CCC9B862DF04680007D2345 /* AppA-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppA-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCC9BA22DF04715007D2345 /* AppB-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppB-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC9CB22DF08C0F007D2345 /* LoggerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoggerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoggerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		7CCC9B982DF04682007D2345 /* Exceptions for "AppA" folder in "AppA" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Resources/Configs/AppA-DevDebug.xcconfig",
+				"Resources/Configs/AppA-DevRelease.xcconfig",
+				"Resources/Configs/AppA-ProdDebug.xcconfig",
+				"Resources/Configs/AppA-ProdRelease.xcconfig",
+				Resources/Configs/AppA.xcconfig,
 				Resources/Info.plist,
 			);
 			target = 7CCC9B852DF04680007D2345 /* AppA */;
@@ -22,6 +48,11 @@
 		7CCC9BB32DF04717007D2345 /* Exceptions for "AppB" folder in "AppB" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Resources/Configs/AppB-DevDebug.xcconfig",
+				"Resources/Configs/AppB-DevRelease.xcconfig",
+				"Resources/Configs/AppB-ProdDebug.xcconfig",
+				"Resources/Configs/AppB-ProdRelease.xcconfig",
+				Resources/Configs/AppB.xcconfig,
 				Resources/Info.plist,
 			);
 			target = 7CCC9BA12DF04715007D2345 /* AppB */;
@@ -52,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCC9CBB2DF08DEA007D2345 /* LoggerCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +102,7 @@
 			children = (
 				7CCC9B882DF04680007D2345 /* AppA */,
 				7CCC9BA32DF04715007D2345 /* AppB */,
+				7CCC9CB12DF08C0F007D2345 /* Frameworks */,
 				7CCC9B872DF04680007D2345 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +116,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7CCC9CB12DF08C0F007D2345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */,
+				7CCC9CB22DF08C0F007D2345 /* LoggerCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,6 +135,7 @@
 				7CCC9B822DF04680007D2345 /* Sources */,
 				7CCC9B832DF04680007D2345 /* Frameworks */,
 				7CCC9B842DF04680007D2345 /* Resources */,
+				7CCC9CB52DF08C0F007D2345 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

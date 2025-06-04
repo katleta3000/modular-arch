@@ -13,9 +13,13 @@
    <FileRef
       location = "group:L3 Shared Logic &amp; Data">
    </FileRef>
-   <FileRef
-      location = "group:L4 Core">
-   </FileRef>
+   <Group
+      location = "group:L4 Core"
+      name = "L4 Core">
+      <FileRef
+         location = "group:Logger/Logger.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Configs">
    </FileRef>
