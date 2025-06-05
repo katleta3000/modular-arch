@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7CCC9CBB2DF08DEA007D2345 /* LoggerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */; };
 		7CCC9CBC2DF08DEA007D2345 /* LoggerCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CCC9EF62DF1BA57007D2345 /* StorageL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9EF52DF1BA57007D2345 /* StorageL3.framework */; };
+		7CCC9EF72DF1BA57007D2345 /* StorageL3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9EF52DF1BA57007D2345 /* StorageL3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CCC9EF92DF1BA5E007D2345 /* StorageCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9EF82DF1BA5E007D2345 /* StorageCore.framework */; };
+		7CCC9EFA2DF1BA5E007D2345 /* StorageCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC9EF82DF1BA5E007D2345 /* StorageCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +23,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7CCC9CBC2DF08DEA007D2345 /* LoggerCore.framework in Embed Frameworks */,
+				7CCC9EF72DF1BA57007D2345 /* StorageL3.framework in Embed Frameworks */,
+				7CCC9EFA2DF1BA5E007D2345 /* StorageCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +36,9 @@
 		7CCC9BA22DF04715007D2345 /* AppB-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppB-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCC9CB22DF08C0F007D2345 /* LoggerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoggerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoggerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC9EB92DF1B757007D2345 /* StorageCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StorageCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC9EF52DF1BA57007D2345 /* StorageL3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StorageL3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC9EF82DF1BA5E007D2345 /* StorageCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StorageCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -84,6 +93,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CCC9CBB2DF08DEA007D2345 /* LoggerCore.framework in Frameworks */,
+				7CCC9EF62DF1BA57007D2345 /* StorageL3.framework in Frameworks */,
+				7CCC9EF92DF1BA5E007D2345 /* StorageCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +130,9 @@
 		7CCC9CB12DF08C0F007D2345 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CCC9EF82DF1BA5E007D2345 /* StorageCore.framework */,
+				7CCC9EF52DF1BA57007D2345 /* StorageL3.framework */,
+				7CCC9EB92DF1B757007D2345 /* StorageCore.framework */,
 				7CCC9CBA2DF08DEA007D2345 /* LoggerCore.framework */,
 				7CCC9CB22DF08C0F007D2345 /* LoggerCore.framework */,
 			);

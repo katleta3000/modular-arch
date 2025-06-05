@@ -10,9 +10,26 @@
 		7CCC9C382DF07F21007D2345 /* LoggerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7CCC9EAF2DF1B608007D2345 /* Exceptions for "Logger" folder in "LoggerCore" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Configs/Logger-DevDebug.xcconfig",
+				"Resources/Configs/Logger-DevRelease.xcconfig",
+				"Resources/Configs/Logger-ProdDebug.xcconfig",
+				"Resources/Configs/Logger-ProdRelease.xcconfig",
+				Resources/Configs/Logger.xcconfig,
+			);
+			target = 7CCC9C372DF07F21007D2345 /* LoggerCore */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7CCC9C3A2DF07F21007D2345 /* Logger */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CCC9EAF2DF1B608007D2345 /* Exceptions for "Logger" folder in "LoggerCore" target */,
+			);
 			path = Logger;
 			sourceTree = "<group>";
 		};

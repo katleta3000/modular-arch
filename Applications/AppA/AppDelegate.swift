@@ -6,13 +6,14 @@
 //
 
 import UIKit
-import LoggerCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+	lazy var appStartRule = AppStartRule()
+
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-		Logger.log(level: .info, message: "Test")
+		appStartRule.perform()
 		return true
 	}
 
