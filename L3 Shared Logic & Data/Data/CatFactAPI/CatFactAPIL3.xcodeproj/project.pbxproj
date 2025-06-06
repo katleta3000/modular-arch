@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCCA0D52DF30EAE007D2345 /* NetworkCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCCA0D42DF30EAE007D2345 /* NetworkCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CCCA01C2DF305E5007D2345 /* CatFactAPIL3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatFactAPIL3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCCA0C82DF30E05007D2345 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCCA0D42DF30EAE007D2345 /* NetworkCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7CCCA0772DF30877007D2345 /* Exceptions for "CatFactAPI" folder in "CatFactAPIL3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Configs/CatFactAPIL3-DevDebug.xcconfig",
+				"Resources/Configs/CatFactAPIL3-DevRelease.xcconfig",
+				"Resources/Configs/CatFactAPIL3-ProdDebug.xcconfig",
+				"Resources/Configs/CatFactAPIL3-ProdRelease.xcconfig",
+				Resources/Configs/CatFactAPIL3.xcconfig,
+			);
+			target = 7CCCA01B2DF305E5007D2345 /* CatFactAPIL3 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7CCCA01E2DF305E5007D2345 /* CatFactAPI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7CCCA0772DF30877007D2345 /* Exceptions for "CatFactAPI" folder in "CatFactAPIL3" target */,
+			);
+			path = CatFactAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCCA0192DF305E5007D2345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCCA0D52DF30EAE007D2345 /* NetworkCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCCA0122DF305E5007D2345 = {
+			isa = PBXGroup;
+			children = (
+				7CCCA01E2DF305E5007D2345 /* CatFactAPI */,
+				7CCCA0C72DF30E05007D2345 /* Frameworks */,
+				7CCCA01D2DF305E5007D2345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCCA01D2DF305E5007D2345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCCA01C2DF305E5007D2345 /* CatFactAPIL3.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCCA0C72DF30E05007D2345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CCCA0D42DF30EAE007D2345 /* NetworkCore.framework */,
+				7CCCA0C82DF30E05007D2345 /* Network.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CCCA0172DF305E5007D2345 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7CCCA01B2DF305E5007D2345 /* CatFactAPIL3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCCA0232DF305E5007D2345 /* Build configuration list for PBXNativeTarget "CatFactAPIL3" */;
+			buildPhases = (
+				7CCCA0172DF305E5007D2345 /* Headers */,
+				7CCCA0182DF305E5007D2345 /* Sources */,
+				7CCCA0192DF305E5007D2345 /* Frameworks */,
+				7CCCA01A2DF305E5007D2345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7CCCA01E2DF305E5007D2345 /* CatFactAPI */,
+			);
+			name = CatFactAPIL3;
+			packageProductDependencies = (
+			);
+			productName = CatFactAPI;
+			productReference = 7CCCA01C2DF305E5007D2345 /* CatFactAPIL3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCCA0132DF305E5007D2345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					7CCCA01B2DF305E5007D2345 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 7CCCA0162DF305E5007D2345 /* Build configuration list for PBXProject "CatFactAPIL3" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCCA0122DF305E5007D2345;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7CCCA01D2DF305E5007D2345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCCA01B2DF305E5007D2345 /* CatFactAPIL3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCCA01A2DF305E5007D2345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCCA0182DF305E5007D2345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CCCA0212DF305E5007D2345 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = DevDebug;
+		};
+		7CCCA0222DF305E5007D2345 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = DevRelease;
+		};
+		7CCCA0242DF305E5007D2345 /* DevDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCCA01E2DF305E5007D2345 /* CatFactAPI */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/CatFactAPIL3-DevDebug.xcconfig";
+			buildSettings = {
+				PRODUCT_NAME = CatFactAPIL3;
+			};
+			name = DevDebug;
+		};
+		7CCCA0252DF305E5007D2345 /* DevRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCCA01E2DF305E5007D2345 /* CatFactAPI */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/CatFactAPIL3-DevRelease.xcconfig";
+			buildSettings = {
+				PRODUCT_NAME = CatFactAPIL3;
+			};
+			name = DevRelease;
+		};
+		7CCCA0732DF30851007D2345 /* ProdDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = ProdDebug;
+		};
+		7CCCA0742DF30851007D2345 /* ProdDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCCA01E2DF305E5007D2345 /* CatFactAPI */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/CatFactAPIL3-ProdDebug.xcconfig";
+			buildSettings = {
+				PRODUCT_NAME = CatFactAPIL3;
+			};
+			name = ProdDebug;
+		};
+		7CCCA0752DF30859007D2345 /* ProdRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = ProdRelease;
+		};
+		7CCCA0762DF30859007D2345 /* ProdRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 7CCCA01E2DF305E5007D2345 /* CatFactAPI */;
+			baseConfigurationReferenceRelativePath = "Resources/Configs/CatFactAPIL3-ProdRelease.xcconfig";
+			buildSettings = {
+				PRODUCT_NAME = CatFactAPIL3;
+			};
+			name = ProdRelease;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCCA0162DF305E5007D2345 /* Build configuration list for PBXProject "CatFactAPIL3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCCA0212DF305E5007D2345 /* DevDebug */,
+				7CCCA0732DF30851007D2345 /* ProdDebug */,
+				7CCCA0222DF305E5007D2345 /* DevRelease */,
+				7CCCA0752DF30859007D2345 /* ProdRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevRelease;
+		};
+		7CCCA0232DF305E5007D2345 /* Build configuration list for PBXNativeTarget "CatFactAPIL3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCCA0242DF305E5007D2345 /* DevDebug */,
+				7CCCA0742DF30851007D2345 /* ProdDebug */,
+				7CCCA0252DF305E5007D2345 /* DevRelease */,
+				7CCCA0762DF30859007D2345 /* ProdRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = DevRelease;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCCA0132DF305E5007D2345 /* Project object */;
+}

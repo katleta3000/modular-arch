@@ -16,13 +16,23 @@
    <Group
       location = "group:L3 Shared Logic &amp; Data"
       name = "L3 Shared Logic &amp; Data">
-      <FileRef
-         location = "group:StorageL3/StorageL3.xcodeproj">
-      </FileRef>
+      <Group
+         location = "group:Data"
+         name = "Data">
+         <FileRef
+            location = "group:StorageL3/StorageL3.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:CatFactAPI/CatFactAPIL3.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
    <Group
       location = "group:L4 Core"
       name = "L4 Core">
+      <FileRef
+         location = "group:Network/Network.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:Logger/Logger.xcodeproj">
       </FileRef>

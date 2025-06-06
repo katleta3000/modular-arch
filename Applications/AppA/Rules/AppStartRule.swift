@@ -7,10 +7,12 @@
 
 import LoggerCore
 import StorageL3
+import CatFactAPIL3
 
 struct AppStartRule {
 
 	private let storage = Storage()
+	private let api = CatFactAPIFactory.make()
 
 	func perform() {
 		Logger.configure(.default)
@@ -19,5 +21,11 @@ struct AppStartRule {
 		print(storage.firstLaunch)
 
 		storage.firstLaunch = false
+
+		api.getFact { result in
+			if case let .success(response) = result {
+				Logger.log(level: .info, message: "I got a new cat fact! \(response.fact)")
+			}
+		}
 	}
 }

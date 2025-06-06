@@ -35,3 +35,6 @@
 	- UserDefaults + App Group (for widget support)
 	- Base migration strategy
 - L4 Design System
+- Tests
+	- Module: unit testing
+	- App: UI/integration testing
