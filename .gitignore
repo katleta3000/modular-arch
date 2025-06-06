@@ -29,7 +29,10 @@ xcuserdata
 *.xcuserstate
 *.xcscmblueprint
 *.xcuserdata
+*.xcuserdatad
 *.xcworkspace/xcuserdata/
+
+# modular-arch.xcworkspace/xcuserdata/katleta3000.xcuserdatad
 
 ### Swift ###
 # Xcode
